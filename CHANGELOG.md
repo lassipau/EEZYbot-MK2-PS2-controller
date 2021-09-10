@@ -1,6 +1,6 @@
-# Changelog for RORPack
+# Changelog EEZYbot Robotic Arm with PS2 Controller
 
-The main changes to "RORPack" are documented in this file.
+The main changes to "EEZYbot Robotic Arm with PS2 Controller" are documented in this file
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
@@ -8,16 +8,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ### Added 
 
+- Arduino code for the EEZYbot control.
+- Gerber files for the connection PCB.
 - This Changelog file.
-- Timoshenko beam example from the conference paper by Paunonen, Le Gorrec, and Ramirez at LHMNC 2018.
-- Feedthrough parameter Dc for LowGainRC.
 
 ### Changed
 
-- Changed comparison with "is" to "==" in laplacian.py.
-- Changed the sign of G2 in controller/construct_internal_model.
-- Changed the sign of G2 in LowGainRC and PassiveRC accordingly with the above change.
-- Transfer function values PKvals and PLvals inserted to ObserverBasedRC and DualObserverBasedRC and removed from the examples.
+-
 
 ### Removed
 
@@ -25,15 +22,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ### Fixed
 
-- Fixed signs for matrices B and Bd and stabilizing matrices K and L for the controller construction in examples heat1d 1, 2 and 3.
-- Fixed the simulation of the closed loop system to use the correct matrix CK in determining the control input signal.
-
-## [v0.9.0] - 2021-07-07
-
-### Added 
-
 - 
 
-[unreleased]: https://github.com/lassipau/rorpack/tree/dev
-[v0.9.0]: 
+[unreleased]: https://github.com/lassipau/EEZYbot-MK2-PS2-controller/main
 
