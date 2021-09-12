@@ -29,7 +29,7 @@ The following figures describe the orientations of the servo connectors and the 
 
 #### Other ways of wiring
 
-The connections to the servos and the controller can alternatively done on a breadboard. The following figure describes the connections between servos, the wires of the PS2 controller and Arduino Nano (Digital pins D2, D4, D7 and D8, the 3.3V power pin, and the ground pin). The PWM pins of the servos can alternatively be connected to any available digital pins with PWM capability, by default D3 ('rotation'), D5 ('lean'), D6 ('elevation'), and D9 ('jaws') (if other pins are used, the numbers can be redefined in the code).
+The connections to the servos and the controller can alternatively done on a breadboard. The following figure describes the connections between the wires of the PS2 controller and Arduino Nano (Digital pins D2, D4, D7 and D8, the 3.3V power pin, and the ground pin). The PWM pins of the servos can alternatively be connected to any available digital pins with PWM capability, by default D3 ('rotation'), D5 ('lean'), D6 ('elevation'), and D9 ('jaws') (if other pins are used, the numbers can be redefined in the code).
 
 ![boardconnections](images/boardconnections.png)
 
