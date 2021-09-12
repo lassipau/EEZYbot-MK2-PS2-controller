@@ -1,6 +1,8 @@
 # EEZYbot Robotic Arm with PS2 Controller
 
-This repository contains the Arduino code for controlling a 3D printed EEZYbot MK2 robotic arm (designed by daGHIZmo in Thingiverse) using a PS2 controller. In addition, the repository contains Gerber files for a PCB which can be used to connect the robotic arm servo motors and the PS2 controller to an Arduino Nano.
+This repository contains the Arduino code for controlling a 3D printed EEZYbot MK2 robotic arm (designed by Carlo Franciscone (daGHIZmo) in Thingiverse) using a Playstation 2 Dualshock controller. In addition, the repository contains Gerber files for a PCB which can be used to connect the robotic arm servo motors and the PS2 controller to an Arduino Nano.
+
+![fullrobot](images/fullrobot.jpg)
 
 ## Requirements
 
@@ -9,6 +11,31 @@ The EEZYbot MK2 robotic arm design by daGHIZmo can be found in Thingiverse at ht
 The Arduino code requires the PS2X library (1.6 or newer) for interacting with the PS2 controller. The library is available at https://github.com/madsci1016/Arduino-PS2X
 
 There's also a good tutorial on connecting the PS2 controller to Arduino in Youtube at https://www.youtube.com/watch?v=xlupRVF_6W8
+
+## Installation
+
+### Connections and Wiring
+
+#### Using the connection shield PCB
+
+The servos and a connector plug for the Playstation 2 controller can be connected directly to the connection shield PCB. 
+
+![connection_PCB](images/connectionPCB.jpg)
+
+The following figures describe the orientations of the servo connectors and the ordering of the wires between the PS2 controller plug and the connection board. The wires inside the PS2 controller cord can of course be wired directly to the board, but I found it easier to solder the wires instead to a connector plug. The connector I used comes from a cheap USB-adapter for PS2 controllers, which I took apart. This way the same controller can also be used for different projects.
+
+![wiring](images/pinout.jpg)
+
+
+#### Other ways of wiring
+
+The connections to the servos and the controller can alternatively done on a breadboard. The following figure describes the connections between servos, the wires of the PS2 controller and Arduino Nano (Digital pins D2, D4, D7 and D8, the 3.3V power pin, and the ground pin). The PWM pins of the servos can alternatively be connected to any available digital pins with PWM capability, by default D3 ('rotation'), D5 ('lean'), D6 ('elevation'), and D9 ('jaws') (if other pins are used, the numbers can be redefined in the code).
+
+![boardconnections](images/boardconnections.png)
+
+### Software installation
+
+Compile the Arduino code file 'EEZYbot_PS2X_control/EEZYbot_PS2X_control.ino' and upload it to the Arduino.
 
 ## Usage
 
