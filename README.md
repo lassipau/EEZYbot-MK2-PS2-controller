@@ -12,6 +12,12 @@ The Arduino code requires the PS2X library (1.6 or newer) for interacting with t
 
 There's also a good tutorial on connecting the PS2 controller to Arduino in Youtube at https://www.youtube.com/watch?v=xlupRVF_6W8
 
+
+## Demonstration video
+
+[![Watch the video](https://img.youtube.com/vi/sOWgFZ_HCvU/maxresdefault.jpg)](https://youtu.be/sOWgFZ_HCvU)
+
+
 ## Installation
 
 ### Connections and Wiring
