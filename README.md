@@ -15,6 +15,7 @@ There's also a good tutorial on connecting the PS2 controller to Arduino in Yout
 
 ## Demonstration video
 
+Click on the image below to watch the video (on Youtube).
 [![Watch the video](https://img.youtube.com/vi/sOWgFZ_HCvU/maxresdefault.jpg)](https://youtu.be/sOWgFZ_HCvU)
 
 
