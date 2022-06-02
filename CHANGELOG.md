@@ -8,6 +8,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ### Added 
 
+- Connection board schematic (in Board Schematic/Connection-board-schematic.pdf)
 - Arduino code for the EEZYbot control.
 - Gerber files for the connection PCB.
 - This Changelog file.
